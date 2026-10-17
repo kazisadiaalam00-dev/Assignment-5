@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
+import Banner from './Components/banner'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,8 @@ function App() {
 
         <Navbar />
 
-        <h2>Hello</h2>
+      <Banner />
+        
 
       </div>
 
